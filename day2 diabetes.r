@@ -1,0 +1,5 @@
+data=read.csv("diabetes.csv")
+View(data)
+scatter.smooth(data$BloodPressure,data$BMI)
+hist(data$BMI)
+plot(data$BMI)
